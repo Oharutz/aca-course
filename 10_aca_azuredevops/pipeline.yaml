@@ -4,6 +4,9 @@ trigger:
 resources:
 - repo: self
 
+pool:
+  name: AzureAgents
+
 variables:  
   IMAGE_NAME: houssemdocker/album-backend-api
   CONTAINERAPPS_APP: album-backend-api
