@@ -21,7 +21,8 @@ stages:
   - job: Build
     displayName: Build
     pool:
-      vmImage: ubuntu-latest
+      #vmImage: ubuntu-latest
+      name: AzureAgents
     steps:
 
     - task: Docker@2
@@ -47,7 +48,8 @@ stages:
   - job: Deploy
     displayName: Deploy
     pool:
-      vmImage: ubuntu-latest
+      #vmImage: ubuntu-latest
+      name: AzureAgents
     steps:
 
     - task: AzureContainerApps@1
