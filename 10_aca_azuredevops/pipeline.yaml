@@ -8,7 +8,7 @@ pool:
   name: AzureAgents
 
 variables:  
-  IMAGE_NAME: houssemdocker/album-backend-api
+  IMAGE_NAME: oharutz/album-backend-api
   CONTAINERAPPS_APP: album-backend-api
   CONTAINERAPPS_ENVIRONMENT: aca-environment
   RESOURCE_GROUP: rg-containerapps-azure-pipelines2
